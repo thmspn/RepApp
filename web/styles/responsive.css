@@ -1,0 +1,692 @@
+@media (min-width: 1600px) {
+  .workspace {
+    padding-top: 42px;
+  }
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr) 278px;
+    gap: 31px;
+  }
+  .welcome-banner {
+    min-height: 295px;
+    padding-left: 35px;
+  }
+  .welcome-banner h2 {
+    font-size: 52px;
+  }
+  .speech-art {
+    max-width: 320px;
+    right: 19px;
+    top: 31px;
+    width: 45%;
+    height: 225px;
+  }
+  .rep-card {
+    padding: 25px;
+  }
+  .rep-card h2 {
+    font-size: 34px;
+  }
+  .page-heading h1 {
+    font-size: 38px;
+  }
+  .empty-state {
+    min-height: 350px;
+    justify-content: center;
+  }
+  .empty-state h3 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1250px) {
+  .sidebar {
+    width: 220px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .app-main {
+    margin-left: 220px;
+  }
+  .workspace {
+    padding: 29px 27px 25px;
+  }
+  .topbar {
+    padding: 0 27px;
+  }
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr) 222px;
+    gap: 20px;
+  }
+  .rep-card {
+    padding: 17px;
+  }
+  .rep-card h2 {
+    font-size: 29px;
+  }
+  .speech-art {
+    right: -5px;
+    width: 43%;
+    top: 34px;
+  }
+  .welcome-banner {
+    padding: 25px 24px;
+  }
+  .welcome-banner h2 {
+    font-size: 42px;
+  }
+  .banner-eyebrow {
+    font-size: 7px;
+    letter-spacing: 1px;
+  }
+  .page-heading h1 {
+    font-size: 30px;
+  }
+  .prompt-cards > button {
+    padding: 13px 10px;
+    gap: 8px;
+  }
+  .prompt-cards strong {
+    font-size: 10px;
+  }
+  .prompt-cards small {
+    font-size: 8px;
+  }
+  .prompt-icon {
+    width: 28px;
+    height: 30px;
+  }
+  .card-inner {
+    gap: 11px;
+    padding: 17px 14px;
+  }
+  .card-bottom {
+    gap: 9px;
+  }
+  .card-topline {
+    gap: 5px;
+  }
+  .conversation-open h3 {
+    font-size: 14px;
+  }
+  .feed-tabs {
+    gap: 16px;
+  }
+  .rep-person {
+    gap: 7px;
+  }
+  .rep-person > div > span {
+    font-size: 9px;
+  }
+  .pulse-numbers span {
+    font-size: 9px;
+  }
+  .pulse-numbers > div + div {
+    padding-left: 13px;
+  }
+}
+@media (max-width: 1100px) {
+  .right-rail {
+    display: none;
+  }
+  .content-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .workspace {
+    max-width: 900px;
+    padding: 33px 35px 25px;
+  }
+  .welcome-banner {
+    min-height: 275px;
+  }
+  .welcome-banner h2 {
+    font-size: 47px;
+  }
+  .speech-art {
+    right: 20px;
+    top: 20px;
+    width: 40%;
+    max-width: 300px;
+  }
+  .banner-eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.3px;
+  }
+  .page-heading h1 {
+    font-size: 33px;
+  }
+  .card-inner {
+    padding: 20px;
+    gap: 15px;
+  }
+  .prompt-cards > button {
+    padding: 16px 14px;
+    gap: 11px;
+  }
+  .prompt-cards strong {
+    font-size: 11px;
+  }
+  .prompt-cards small {
+    font-size: 9px;
+  }
+  .prompt-icon {
+    width: 33px;
+    height: 35px;
+  }
+  .page-heading {
+    margin-bottom: 27px;
+  }
+  .anonymous-status {
+    font-size: 10px;
+  }
+  .topbar-actions {
+    gap: 12px;
+  }
+  .new-conversation {
+    font-size: 11px;
+  }
+}
+@media (max-width: 850px) {
+  .sidebar {
+    transform: translateX(-100%);
+    visibility: hidden;
+    transition:
+      transform 0.2s,
+      visibility 0.2s;
+    width: 236px;
+    z-index: 50;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+  .sidebar-open {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  .app-main {
+    margin-left: 0;
+  }
+  .mobile-menu {
+    display: inline-flex;
+    margin-left: -4px;
+  }
+  .nav-backdrop {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: #1c38294d;
+    backdrop-filter: blur(2px);
+    z-index: 40;
+  }
+  .topbar {
+    height: 67px;
+    padding: 0 25px;
+  }
+  .topbar-left {
+    gap: 15px;
+  }
+  .workspace {
+    padding: 28px 28px 25px;
+    max-width: 840px;
+  }
+  .skip-link {
+    left: 15px;
+  }
+  .page-heading h1 {
+    font-size: 32px;
+  }
+  .welcome-banner {
+    min-height: 275px;
+    padding: 26px 29px;
+  }
+  .speech-art {
+    right: 15px;
+    top: 24px;
+    width: 43%;
+    height: 210px;
+  }
+  .banner-sticker {
+    right: 37px;
+    bottom: 25px;
+  }
+  .sidebar-bottom {
+    padding-top: 25px;
+  }
+  .dialog {
+    max-height: 92dvh;
+  }
+}
+@media (max-width: 560px) {
+  .topbar {
+    padding: 0 18px;
+    height: 61px;
+  }
+  .topbar-left {
+    gap: 8px;
+  }
+  .topbar-actions {
+    gap: 9px;
+  }
+  .anonymous-status {
+    display: none;
+  }
+  .term-badge {
+    font-size: 7px;
+    padding: 3px 5px;
+    margin-left: 3px;
+  }
+  .breadcrumb {
+    font-size: 10px;
+    gap: 8px;
+  }
+  .notification-button {
+    border-left: 0;
+    padding-left: 0;
+    width: 30px;
+  }
+  .identity-button {
+    width: 30px;
+    height: 30px;
+  }
+  .workspace {
+    padding: 25px 18px 20px;
+  }
+  .page-heading {
+    gap: 16px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 23px;
+  }
+  .page-heading > .new-conversation {
+    align-self: flex-start;
+    margin-top: 0;
+    min-height: 36px;
+    padding: 8px 11px;
+    font-size: 11px;
+    gap: 5px;
+  }
+  .page-heading h1 {
+    font-size: 29px;
+    letter-spacing: -1px;
+    margin-top: 7px;
+  }
+  .page-heading > div > p:last-child {
+    font-size: 11px;
+    margin-top: 5px;
+  }
+  .eyebrow {
+    font-size: 8px;
+    letter-spacing: 1.3px;
+  }
+  .welcome-banner {
+    min-height: 275px;
+    padding: 23px;
+    align-items: flex-start;
+  }
+  .banner-eyebrow {
+    font-size: 6.5px;
+    letter-spacing: 0.85px;
+  }
+  .welcome-banner h2 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  .welcome-banner p {
+    font-size: 11px;
+    line-height: 1.7;
+    margin-top: 13px;
+  }
+  .banner-link {
+    font-size: 11px;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .speech-art {
+    width: 150px;
+    height: 130px;
+    right: -16px;
+    top: 133px;
+    max-width: none;
+  }
+  .banner-sticker {
+    font-size: 12px;
+    right: 24px;
+    top: 34px;
+    bottom: auto;
+  }
+  .banner-sticker em {
+    font-size: 15px;
+  }
+  .feed-heading {
+    margin-top: 25px;
+    margin-bottom: 16px;
+  }
+  .feed-heading h2 {
+    font-size: 12px;
+    gap: 7px;
+  }
+  .feed-heading h2 > span {
+    font-size: 9px;
+    min-width: 18px;
+  }
+  .live-label {
+    font-size: 8px;
+    gap: 4px;
+  }
+  .feed-tabs {
+    gap: 20px;
+  }
+  .feed-tabs > button {
+    font-size: 10.5px;
+  }
+  .sort-control > select {
+    font-size: 9px;
+  }
+  .feed-toolbar {
+    gap: 8px;
+    margin-bottom: 13px;
+  }
+  .search-row {
+    margin-bottom: 13px;
+  }
+  .search-field {
+    min-height: 38px;
+  }
+  .search-field input {
+    font-size: 11px;
+  }
+  .refresh-button {
+    height: 38px;
+    width: 34px;
+  }
+  .course-filter {
+    padding: 9px 6px;
+    gap: 4px;
+  }
+  .course-filter > svg {
+    width: 12px;
+  }
+  .course-filter select {
+    font-size: 9px;
+    max-width: 85px;
+  }
+  .card-inner {
+    padding: 17px 13px;
+    gap: 10px;
+  }
+  .vote-box {
+    width: 31px;
+    height: 48px;
+    border-radius: 6px;
+  }
+  .vote-box > svg {
+    width: 16px;
+  }
+  .vote-box strong {
+    font-size: 11px;
+  }
+  .card-topline {
+    gap: 6px;
+    margin-bottom: 8px;
+  }
+  .topic-tag {
+    font-size: 9px;
+  }
+  .course-tag,
+  .card-topline > time {
+    font-size: 8px;
+  }
+  .conversation-open h3 {
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .conversation-open p {
+    font-size: 11px;
+    line-height: 1.85;
+    margin-top: 6px;
+  }
+  .card-bottom {
+    margin-top: 13px;
+    gap: 8px;
+  }
+  .reply-count {
+    font-size: 9px;
+  }
+  .rep-replied,
+  .mine-label {
+    font-size: 8px;
+  }
+  .status-badge {
+    font-size: 8px;
+    padding: 2px 5px;
+  }
+  .empty-state {
+    padding: 27px 20px;
+    min-height: 335px;
+  }
+  .empty-state h3 {
+    font-size: 24px;
+  }
+  .empty-state > p {
+    font-size: 11px;
+    max-width: 280px;
+    line-height: 1.9;
+  }
+  .empty-state > .button {
+    font-size: 11px;
+  }
+  .empty-footnote {
+    font-size: 8px;
+  }
+  .prompt-cards {
+    grid-template-columns: 1fr;
+    gap: 9px;
+    margin-top: 13px;
+  }
+  .prompt-cards > button {
+    padding: 14px 16px;
+  }
+  .feed-footer {
+    font-size: 8px;
+    padding-top: 20px;
+  }
+  .footer-heart {
+    font-size: 9px;
+  }
+  .context-note {
+    padding: 14px;
+    font-size: 11px;
+    gap: 9px;
+  }
+  .context-note .text-button {
+    font-size: 11px;
+  }
+  .dialog {
+    width: calc(100vw - 22px);
+    max-height: 94dvh;
+    border-radius: 12px;
+  }
+  .dialog-header {
+    padding: 18px 20px 17px;
+  }
+  .dialog-header h2 {
+    font-size: 22px;
+  }
+  .dialog-content,
+  .compose-form {
+    padding: 20px;
+  }
+  .dialog-intro {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .field-label {
+    font-size: 11px;
+  }
+  .field-label > span {
+    font-size: 9px;
+  }
+  .form-row {
+    gap: 10px;
+  }
+  .input {
+    font-size: 13px;
+    padding: 9px 10px;
+  }
+  .visibility-options {
+    grid-template-columns: 1fr;
+  }
+  .visibility-options > label {
+    padding: 12px 14px;
+    gap: 11px;
+  }
+  .visibility-options strong {
+    font-size: 12px;
+  }
+  .visibility-options small {
+    max-width: none;
+    font-size: 10px;
+  }
+  .visibility-options input {
+    top: 19px;
+    right: 15px;
+  }
+  .compose-footer {
+    gap: 9px;
+    margin-top: 20px;
+    padding-top: 18px;
+    flex-wrap: wrap;
+  }
+  .compose-footer > span {
+    font-size: 9px;
+  }
+  .compose-footer > .button {
+    font-size: 11px;
+    min-height: 36px;
+    padding: 8px 11px;
+  }
+  .conversation-detail {
+    padding: 22px 20px 19px;
+  }
+  .conversation-detail > h1 {
+    font-size: 23px;
+  }
+  .detail-meta {
+    gap: 6px;
+  }
+  .detail-meta > .topic-tag {
+    font-size: 10px;
+  }
+  .author-line {
+    gap: 6px;
+    font-size: 10px;
+  }
+  .conversation-detail > .message-body {
+    font-size: 13px;
+    margin-top: 20px;
+  }
+  .detail-actions {
+    gap: 13px;
+  }
+  .detail-actions > .button {
+    font-size: 10px;
+  }
+  .detail-actions > .button > span {
+    display: none;
+  }
+  .detail-actions > .text-button {
+    font-size: 10px;
+  }
+  .replies-section {
+    padding: 20px;
+  }
+  .replies-heading h3 {
+    font-size: 12px;
+  }
+  .replies-heading > span {
+    font-size: 8px;
+  }
+  .reply {
+    gap: 9px;
+  }
+  .reply-rep {
+    padding: 13px 10px;
+  }
+  .reply-meta {
+    gap: 5px;
+  }
+  .reply-meta > strong {
+    font-size: 10px;
+  }
+  .rep-badge {
+    font-size: 7px;
+  }
+  .reply .message-body {
+    font-size: 12px;
+  }
+  .reply-form-footer > .button {
+    font-size: 10px;
+  }
+  .reply-form-footer > span,
+  .checkbox-label {
+    font-size: 9px;
+  }
+  .reply-form-footer {
+    gap: 8px;
+  }
+  .rep-controls {
+    gap: 9px;
+    padding: 10px;
+  }
+  .toast {
+    font-size: 11px;
+    bottom: 17px;
+    padding: 12px 14px;
+    gap: 8px;
+    min-width: 270px;
+  }
+  .small-note {
+    font-size: 10px !important;
+  }
+  .signout-link {
+    margin: 13px 0 0;
+    display: flex;
+  }
+}
+@media (max-width: 370px) {
+  .term-badge {
+    display: none;
+  }
+  .workspace {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .speech-art {
+    right: -16px;
+    width: 135px;
+  }
+  .welcome-banner h2 {
+    font-size: 38px;
+  }
+  .banner-eyebrow {
+    font-size: 6px;
+  }
+  .welcome-banner {
+    padding: 21px;
+  }
+  .feed-tabs {
+    gap: 16px;
+  }
+  .feed-tabs > button {
+    font-size: 10px;
+  }
+  .live-label {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *:before,
+  *:after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
