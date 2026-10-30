@@ -1,0 +1,27 @@
+# Installed dependencies and generated files, at any package depth
+node_modules/
+dist/
+build/
+out/
+.next/
+.vinext/
+.wrangler/
+.sites-runtime/
+outputs/
+coverage/
+next-env.d.ts
+*.tsbuildinfo
+
+# Local environment values and credentials
+.env*
+!.env.example
+.dev.vars*
+*.pem
+
+# Package-manager logs and operating-system files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.DS_Store
+Thumbs.db
