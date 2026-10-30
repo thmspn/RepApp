@@ -1,6 +1,7 @@
 # RepApp
 Anonymous forum for Waterloo BME Academic Reps to gather information, feedback, issues and concerns.
 
+<<<<<<< HEAD
 ## The app
 
 The working web app is in [`web/`](web/README.repapp.md). It supports anonymous class discussions, private conversations with reps, replies, upvotes, course and topic filters, recovery keys, and an authorized rep desk.
@@ -17,6 +18,8 @@ Open http://127.0.0.1:5173. See the [app guide](web/README.repapp.md) for rep ac
 
 ## How we got here
 
+=======
+>>>>>>> main
 wsp my dawgs so basically my name is amanda and im the BME '31 academic rep for term f26.
 i was setting up an anonymous suggestion box so i made a google form to gather some information from my fellow classmates. and i want it to cover general concerns and specific concerns for students that wanted us to communicate with professors on behalf of them
 but like if its an anonymous form then how would i respond to them if idk who it is yaknow
